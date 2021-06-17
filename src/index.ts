@@ -178,6 +178,7 @@ class NavigationMenu {
                     e.stopPropagation();
                   }
                 });
+                if(indexAccordeon === 0) childrenAccordeon.innerHTML = '';
                 childrenAccordeon.appendChild(childrenItemAccordeon);
               });
             }

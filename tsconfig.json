@@ -5,6 +5,7 @@
     "jsx": "preserve",
     "esModuleInterop": true,
     "sourceMap": true,
+    "outFile": "bundle.js",
     "allowJs": true,
     "lib": [
       "es6",
